@@ -7,4 +7,16 @@ public class CambioDeEscena : MonoBehaviour
     {
         SceneManager.LoadScene("Home"); 
     }
+    public void IrAInicioSesion()
+    {
+        SceneManager.LoadScene("Inicio sesion");
+    }
+    public void IrARegistro()
+    {
+        SceneManager.LoadScene("Registro");
+    }
+    public void IrAMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
